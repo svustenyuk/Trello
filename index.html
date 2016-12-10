@@ -20,7 +20,7 @@
             ng-controller="listsCtrl as listsCtrl">
         <div class="row">
             <section class="list list-inline"
-                     ng-repeat="list in listsCtrl.lists"
+                     ng-repeat="list in lists"
                     ng-controller="listCtrl as listCtrl">
                 <h1>{{list.listName}}</h1>
 
@@ -76,6 +76,7 @@
                 </form>
             </section>
         </div>
+
     </section>
 
 
